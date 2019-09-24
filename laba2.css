@@ -1,0 +1,348 @@
+* { 
+	padding: 0;
+	position: relative;
+}
+
+.LEFTHOUSE {
+    left: 15px;
+}
+
+.house_wall {
+	height: 500px;
+	width: 500px;
+	border: 12px solid #000;
+    
+}
+
+.house_roof {
+	width: 0;
+	height: 0;
+	border-left: 268px solid transparent;
+	border-right: 254px solid transparent;
+	border-bottom: 300px solid brown;
+}
+
+.wall_window_green, .wall_window_red {
+	width: 80px;
+	height: 100px;
+	border: 1px solid #000;
+	top: 300px;
+	position: relative;
+}
+
+.wall_window_green {
+	background: green;
+	left: 40px;
+	top: 50px;
+}
+
+.window_roof {
+	width: 80px;
+	height: 100px;
+	border: 1px solid blue;
+	top: 160px;
+	position: relative;
+    right: 40px;
+    background-color: blue;
+}
+.window_roof_hor {
+    border: 2px solid black;
+    width: 80px;
+    right: 40px;
+    top: 80px;
+}
+.window_roof_hortop {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: 56px; 
+}
+
+.wall_window_red {
+	background: red;
+	left: 370px;
+	top: -50px;
+}
+
+.window_bot_hor {
+    border: 2px solid black;
+    width: 80px;
+    right: 1px;
+    top: 20px;
+}
+.window_bot_hortop {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: -5px;
+    left: 40px;
+}
+
+.window_bot_lhor {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: -108px;
+    right: 291px;
+}
+    
+
+.window_bot_lhortop {
+    border: 2px solid black;
+    width: 79px;
+    right: 330px;
+    top: -180px;
+}
+
+.window_handle {
+    width: 80px;
+	height: 180px;
+	border: 10px solid blue;
+	top: 244px;
+	position: relative;
+    right: -155px;
+    
+}
+
+/*-___________________-________________-_-________________*/
+
+.LEFTHOUSE1 {
+	position: absolute;
+
+}
+
+.house_wall1 {
+	height: 500px;
+	width: 500px;
+	border: 12px solid #000;
+    
+}
+
+.house_roof1 {
+	width: 0;
+	height: 0;
+	border-left: 268px solid transparent;
+	border-right: 254px solid transparent;
+	border-bottom: 300px solid brown;
+}
+
+.wall_window_green1, .wall_window_red1 {
+	width: 80px;
+	height: 100px;
+	border: 1px solid #000;
+	top: 300px;
+	position: absolute;
+}
+
+.wall_window_green1 {
+	background: green;
+	left: 40px;
+	top: 50px;
+}
+
+.window_roof1 {
+	width: 80px;
+	height: 100px;
+	border: 1px solid blue;
+	top: 160px;
+    right: 40px;
+    background-color: blue;
+}
+.window_roof_hor1 {
+    border: 2px solid black;
+    width: 80px;
+    right: 40px;
+    top: 80px;
+
+}
+.window_roof_hortop1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: 160px;
+    position: absolute;
+}
+
+.wall_window_red1 {
+	background: red;
+	left: 370px;
+	top: -50px;
+}
+
+.window_bot_hor1 {
+    border: 2px solid black;
+    width: 80px;
+    right: 1px;
+    top: 20px;
+    position: absolute;
+}
+.window_bot_hortop1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: -5px;
+    left: 40px;
+}
+
+.window_bot_lhor1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 0px;
+    top: -108px;
+    right: 291px;
+
+}
+    
+
+.window_bot_lhortop1 {
+    border: 2px solid black;
+    width: 79px;
+    right: 330px;
+    top: -180px;
+
+}
+
+.window_handle1 {
+    width: 80px;
+	height: 180px;
+	border: 10px solid blue;
+	top: 244px;
+	position: absolute;
+    right: -155px;
+    
+}
+
+/*------------------------------------------*/
+
+.LEFTHOUSE3, .house_wall3{
+    position: fixed;
+}
+
+.house_wall3{
+    height: 600px;
+    width: 600px;
+    border: 1px solid #000;
+    padding: 0px;
+    top:301px;
+    left: 2570px;
+    position: fixed;
+}
+
+.house_roof3{
+    position: fixed;
+    left: 2570px;
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 351px solid transparent;
+    border-bottom: 301px solid brown;
+    top: 0px;
+}
+
+.wall_window_green3, .wall_window_red3{
+    width: 75px;
+    height: 135px;
+    border: 10px solid blue;
+    top: 400px;
+    position: fixed;
+}
+
+.wall_window_green3{
+    background: green;
+    right: 620px;
+}
+
+.wall_window_red3{
+    background: red;
+    right: 220px;
+    position: fixed;
+}
+
+.door3{
+    width: 110px;
+    height: 210px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 660px;
+    overflow: auto;
+    right: 410px;
+    background: black;
+}
+
+
+
+.roof_chimney3{
+    width: 50px;
+    height: 60px;
+    border: 1px solid #000;
+    position: fixed;
+    top: 100px;
+    right: 363px;
+    background: black;
+}
+
+/*----------------------------------------------------*/
+
+.LEFTHOUSE4 {
+    position: static;
+     margin-top: 600px;
+     margin-left: 700px;
+     
+    
+}
+
+.house_wall4{
+    position: static;
+    height: 400px;
+    width: 500px;
+    border: 1px solid black;
+    position: static;
+    padding: 10px;
+    padding-top: 100px;
+
+}
+
+.house_roof4{
+    position: static;
+    left: 600px;
+    width: 0;
+    height: 0;
+    border-left: 251px solid transparent;
+    border-right: 271px solid transparent;
+    border-bottom: 301px solid brown;
+    
+}
+
+.wall_window_green4, .wall_window_red4{
+    width: 95px;
+    height: 150px;
+    border: 3px solid blue;
+    position: static;
+    float: left;
+    margin-bottom: 110px;
+
+}
+
+.wall_window_green4{
+    background: green;
+    right: 600px;
+    margin-left: 40px;
+}
+
+.wall_window_red4{
+    background: red;
+    right: 320px;
+    margin-left: 190px;
+}
+
+.door4{
+    width: 110px;
+    height: 210px;
+    border: 3px;
+    position: static;
+    margin-top: 190px;
+    background: black;
+    margin-left: 200px;
+    
+}
+
